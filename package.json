@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "script.js",
   "scripts": {
-     "build": "vite build"
+     "build": "react-scripts build"
   }
-  "engines": { "node": "18.x" }
+ 
 }
