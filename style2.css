@@ -1,0 +1,50 @@
+*{
+     margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+   
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.contacto{
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+
+footer{
+    padding: 70px 20px;
+    background-color: darkgrey;
+    text-align: center;
+}

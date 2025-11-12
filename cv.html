@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="section hidden">
+        <img src="img/profile.jpg" alt="Mi foto" class="foto">
+        <h1>Miguel Aguilar</h1>
+        <p>Bienvenido a mi CV online. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </header>
+
+    <section class="experiencia">
+        <h2>Experiencia</h2>
+        <div class="experiencia">
+            <h3>Puesto 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="experiencia">
+            <h3>Puesto 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+
+    <section class="formacion">
+        <h2>Formación Académica</h2>
+        <ul>
+            <li>Grado en Ejemplo 1</li>
+            <li>Grado en Ejemplo 2</li>
+        </ul>
+    </section>
+
+    <section class="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Comunicación</li>
+        </ul>
+    </section>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p>Email: miguel@correo.com</p>
+        <p>Teléfono: 123-456-789</p>
+    </section>
+
+    <script>
+        const secciones = document.querySelectorAll('section');
+
+        window.onscroll = function() {
+            for (let i = 0; i < secciones.length; i++) {
+                secciones[i].style.opacity = 1;
+            }
+        };
+
+    </script>
+</body>
+<footer>
+    <small>&copy; Todos los derechos reservados</small>
+</footer>
+</html>
