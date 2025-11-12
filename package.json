@@ -1,0 +1,20 @@
+{
+  "name": "af1-miguel",
+  "version": "1.0.0",
+  "description": "curriculum de miguel",
+  "homepage": "https://github.com/agmendmig/aguilarcv#readme",
+  "bugs": {
+    "url": "https://github.com/agmendmig/aguilarcv/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agmendmig/aguilarcv.git"
+  },
+  "license": "ISC",
+  "author": "miguel aguilar",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
